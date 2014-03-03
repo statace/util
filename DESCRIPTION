@@ -1,0 +1,10 @@
+Package: statace.util
+Type: Package
+Title: StatAce utility functions
+Version: 0.1
+Date: 2013-03-28
+Author: StatAce
+Maintainer: StatAce Development <dev@statace.com>
+Description: Utility functions used by StatAce and dependent packages
+License: GPL (>= 2)
+Depends: R (>= 2.15.3)

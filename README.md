@@ -1,4 +1,4 @@
-statace.util
+StatAce utility functions R package
 ============
 
-StatAce utility functions R package
+This R package contains utility functions used by StatAce and dependent pacakges
