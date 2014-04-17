@@ -72,6 +72,21 @@ sa.set.no.na.print <- function(x) {
 	x
 }
 
+sa.set.highlighted.rows <- function(x, rows) {
+	attr(x, "sa.highlighted.rows") <- rows
+	x
+}
+
+sa.set.header.text <- function(x, text) {
+	attr(x, "sa.headertext") <- text
+	x
+}
+
+sa.set.footer.text <- function(x, text) {
+	attr(x, "sa.footertext") <- text
+	x
+}
+
 sa.mark.object <- function(x) {
 	# Mark as a StatAce object
 	class(x) <- c(class(x), "sa.object")
