@@ -87,6 +87,11 @@ sa.set.footer.text <- function(x, text) {
 	x
 }
 
+sa.set.as.perc <- function(x) {
+	attr(x, "sa.perc") <- TRUE
+	x
+}
+
 sa.mark.object <- function(x) {
 	# Mark as a StatAce object
 	class(x) <- c(class(x), "sa.object")
@@ -97,9 +102,9 @@ sa.set.place.plot <- function(fun) {
 	assign(".place.plot", fun, envir = .env)
 }
 
-sa.place.plot <- function() {
+sa.place.plot <- function(var = NULL) {
 	if (exists(".place.plot", envir = .env)) {
-		.env$.place.plot()
+		.env$.place.plot(var)
 	}
 	else {
 		NULL
