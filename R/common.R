@@ -58,7 +58,7 @@ sa.get.dot.parameter.names <- function(...) {
 }
 
 sa.set.transposed <- function(x) {
-	attr(x, "sa.transp") <- TRUE
+	attr(x, "sa.transposed") <- TRUE
 	x
 }
 
