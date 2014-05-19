@@ -73,7 +73,7 @@ sa.set.no.na.print <- function(x) {
 }
 
 sa.set.highlighted.rows <- function(x, rows) {
-	attr(x, "sa.highlighted.rows") <- rows
+	attr(x, "sa.highlighted.rows") <- as.integer(rows)
 	x
 }
 
