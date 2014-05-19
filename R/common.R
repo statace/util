@@ -78,12 +78,12 @@ sa.set.highlighted.rows <- function(x, rows) {
 }
 
 sa.set.header.text <- function(x, text) {
-	attr(x, "sa.headertext") <- text
+	attr(x, "sa.header.text") <- text
 	x
 }
 
 sa.set.footer.text <- function(x, text) {
-	attr(x, "sa.footertext") <- text
+	attr(x, "sa.footer.text") <- text
 	x
 }
 

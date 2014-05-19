@@ -1,4 +1,4 @@
 StatAce utility functions R package
 ============
 
-This R package contains utility functions used by StatAce and dependent pacakges
+This R package contains utility functions which help StatAce determine how to display R objects
